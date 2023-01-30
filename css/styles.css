@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', serif;
+}
+
+body {
+    background-color: #ffe2b0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+a {
+    color: black;
+    font-size: 22px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.section-about {
+    height: 640px;
+    width: 100%;
+    background: url("../img/background.jpg") center/cover;
+    margin-bottom: 20px;
+}
+
+.section-about_minicard {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    position: relative;
+    left: 54%;
+    top: 50%;
+    padding-top: 15px;
+}
+
+.section-about_mini-inside {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-left: 28px;
+    padding-top: 17px;
+    text-align: left;
+}
+
+.header-in-card {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.description-in-card {
+    font-size: 13px;
+    margin: 0;
+}
+
+.section-two__image-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-two__image-box img {
+    margin-right: 76px;
+}
+
+.section-two__image-box img:last-child {
+    margin-right: 0px;
+}
+
+.section-two-h1 {
+    font-size: 96px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Philosopher', serif;
+}
+
+.red {
+    color: #f15b40;
+}
+
+.section-two-description {
+    font-size: 18px;
+    width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+.section-map-3-box {
+    text-align: center;
+}
+
+.section-map-3-header {
+    margin: 0 auto;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border: 1px solid #999999;
+    margin: 0 auto;
+    width: 1024px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 70px;
+}
