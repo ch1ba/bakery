@@ -1,2 +1,2 @@
 # bakery
-[CLICK](https://ch1ba.github.io/bakery/)
+*[CLICK](https://ch1ba.github.io/bakery/)*
